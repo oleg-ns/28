@@ -21,6 +21,7 @@ var choice = []
 food.addEventListener('change', function (event) {
 	choice.push(event.target.value)
 	console.log(choice)
+	alert(event.target.value)
 })
 //4
 document.addEventListener('keydown', function (event) {
